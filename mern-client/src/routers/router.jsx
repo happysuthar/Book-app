@@ -8,6 +8,7 @@ import Shop from '../shop/Shop';
 import Blog from "../components/Blog";
 import About from "../components/About";
 import Singlebook from "../components/Singlebook";
+import SingleBook from "../shop/SingleBook";
 
   const router = createBrowserRouter([
     {
@@ -31,10 +32,9 @@ import Singlebook from "../components/Singlebook";
             element:<About/>
         },
         {
-            
-            path:"/singlebook",
-            element:<Singlebook/>
-
+          path:"/book/:id",
+          element:<SingleBook/>,
+          loader:({params}) => fetch(`http://localhost:5000/book/${params.id}`)
         }
         
       ]
