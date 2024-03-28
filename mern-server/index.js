@@ -38,13 +38,7 @@ async function run() {
   res.send(result);
 })
 
-// get all books from the db
-/*app.get("/all-books",async(req,res) =>
-{
-  const Books = bookCollections.find();
-  const result = await Books.toArray();
-  res.send(result);
-})*/
+
 
 //update a book data patch or update metho
 
