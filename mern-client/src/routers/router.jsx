@@ -9,7 +9,7 @@ import Blog from "../components/Blog";
 import About from "../components/About";
 import Singlebook from "../components/Singlebook";
 import SingleBook from "../shop/SingleBook";
-import Dashboard from "../dashboard/DashboardLayout"
+import Dashboard from "../dashboard/Dashboard"
 import DashboardLayout from "../dashboard/DashboardLayout";
 import UploadBook from "../dashboard/UploadBook";
 import ManageBooks from "../dashboard/ManageBooks";
@@ -50,7 +50,7 @@ import EditBook from "../dashboard/EditBook";
       children:[
         {
           path:"/admin/dashboard",
-          element:<Dashboard/>
+          element:<Dashboard/> 
         },
         {
            path:"/admin/dashboard/upload",
