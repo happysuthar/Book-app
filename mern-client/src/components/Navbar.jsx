@@ -54,7 +54,7 @@ const Navbar = () => {
       },
       {
         link: "Blog",
-        path:"/blog "
+        path:"/blog"
       },
     ]
   return (
