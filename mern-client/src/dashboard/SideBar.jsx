@@ -22,18 +22,7 @@ const SideBar = () => {
         <Sidebar.Item href="/admin/dashboard/manage" icon={HiInbox}>
           Manage Books
         </Sidebar.Item>
-        <Sidebar.Item href="/admin/dashboard/upload" icon={HiUser}>
-          Users
-        </Sidebar.Item>
-        <Sidebar.Item href="/login" icon={HiShoppingBag}>
-          Login
-        </Sidebar.Item>
-        <Sidebar.Item href="/logout" icon={HiArrowSmRight}>
-          Log out
-        </Sidebar.Item>
-        <Sidebar.Item href="" icon={HiTable}>
-          Sign Up
-        </Sidebar.Item>
+        
       </Sidebar.ItemGroup>
       <Sidebar.ItemGroup>
         <Sidebar.Item href="#" icon={HiChartPie}>
